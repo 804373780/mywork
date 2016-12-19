@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>详情页</title>
+    <meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../js/base.js"></script>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/show.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <script src="../js/swiper.jquery.min.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <script src="../js/swiper.animate1.0.2.min.js"></script>
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/iscroll.js"></script>
+</head>
+<body onload="loaded()">
+<header class="show_header">
+    <a a href="list.html" class="back">
+        <i class="iconfont icon-fanhui1"></i>
+    </a>
+    <a a href="" class="fenxiang">
+        <i class="iconfont icon-fenxiang1"></i>
+    </a>
+</header>
+<div id="wrapper">
+    <div id="scroller">
+        <div class="content_inner">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="../img/mido.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="../img/mido1.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="../img/mido2.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="../img/mido3.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="../img/mido4.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="../img/mido5.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="show_title">
+                <span class="name">【9成新】MiDo</span>
+                <span class="time"><i class="iconfont icon-dengdai"></i>14小时前</span>
+            </div>
+            <p class="details">MiDo美度舵手系列机械手表</p>
+            <div class="show_price">
+                <span class="now_price">￥2800</span>
+                <span class="o_price">￥6700</span>
+                <span class="discount">4.2折</span>
+            </div>
+            <div class="show_notice">降价通知</div>
+            <div class="zeng"><a href="">赠品</a><span>“卖家为此商品购买了408元保养服务券”</span></div>
+            <div class="n_2">每件商品6次鉴定，100%正品保证</div>
+            <div class="show_list">
+                <img src="../img/mido.png" alt="">
+                <img src="../img/mido1.png" alt="">
+                <img src="../img/mido2.png" alt="">
+                <img src="../img/mido3.png" alt="">
+                <img src="../img/mido4.png" alt="">
+                <img src="../img/mido5.png" alt="">
+            </div>
+            <section class="blurb">
+                <ul>
+                    <li>品牌:<span>Mido</span></li>
+                    <li>品类:<span>机械表</span></li>
+                    <li>颜色:<span>如图</span></li>
+                    <li>尺寸:<span>42</span></li>
+                    <li>款式:<span>男款</span></li>
+                    <li>产地:<span>瑞士</span></li>
+                    <li>成色:<span>9成新</span></li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</div>
+<footer id="show_footer" class="top">
+    <div class="photo">
+        <img class="pic">
+        <span>联系卖家</span>
+    </div>
+    <div class="like ">
+        <i class="iconfont icon-huijijiayuanshoucangicon01"></i>
+        <span>喜欢</span>
+    </div>
+    <div class="buy">购买</div>
+</footer>
+</body>
+</html>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        autoplay: 5000,//可选选项，自动滑动
+        pagination : '.swiper-pagination'
+    })
+    var myScroll;
+
+    function loaded () {
+        myScroll = new IScroll('#wrapper', { mouseWheel: true });
+    }
+    document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+</script>

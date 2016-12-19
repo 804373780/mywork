@@ -1,0 +1,114 @@
+#wrapper {
+    position: absolute;
+    z-index: 1;
+    top:1rem;
+    bottom:1.03rem;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+#login_logo{
+    height:2rem;
+    margin-top:0.4rem;
+    margin-bottom:0.4rem;
+    padding:0 0.36rem;
+}
+.logo_icon{
+     width:1.61rem;
+     height:1.61rem;
+     border-radius:0.3rem;
+     margin:0 auto;
+     background:#000;
+ }
+.username{
+    height:0.8rem;
+    width:94%;
+    border:1px solid #D7D7D7;
+    border-radius:0.08rem;
+    display:block;
+    margin:0 auto;
+    font-size:0.3rem;
+    color:#D3D3D7;
+    text-indent:0.2rem;
+    outline:none;
+}
+.password{
+    margin:0.2rem 0;
+    height:0.8rem;
+    width:94%;
+    border:1px solid #D7D7D7;
+    border-radius:0.08rem;
+    margin:0.2rem auto;
+    line-height:0.8rem;
+}
+.password p{
+    display:block;
+    background:#333333;
+    width:2rem;
+    height:0.54rem;
+    float:right;
+    border-radius:40px;
+    margin:0.12rem 0.35rem;
+    color:#ffffff;
+    font-size:0.3rem;
+    text-align: center;
+    line-height: 0.54rem;
+}
+.password input{
+    border-radius:0.08rem;
+    width:60%;
+    height:0.7rem;
+    display:block;
+    font-size:0.3rem;
+    text-indent:0.2rem;
+    float:left;
+    color:#D3D3D7;
+    outline:none;
+}
+.xieyi{
+    padding:0rem 0.36rem;
+    height:0.45rem;
+    line-height:0.45rem;
+}
+.xieyi i{
+    font-size:0.2rem;
+    float:left;
+    margin:0 0.1rem;
+}
+.argee{
+    color:#6E6E6E;
+    font-size:0.2rem;
+    float: left;
+}
+.tishi{
+    color:#FC655E;
+    font-size:0.2rem;
+    float: left;
+    margin-left:0.19rem;
+}
+.send_voice{
+    width:94%;
+    height:0.7rem;
+    background:#F7F7F7;
+    border-radius:0.08rem;
+    margin:0 auto;
+    text-align: center;
+    font-size:0.21rem;
+    color:#ADADAD;
+    line-height:0.7rem;
+}
+.send_voice a{
+    height:0.24rem;
+    color: #FC6861;
+    border-bottom:0.03rem solid #FC655E;
+}
+.login_btn{
+    width:5rem;
+    height:0.82rem;
+    color:#FFFFFF;
+    background:#FC655E;
+    display: block;
+    margin:0.8rem auto;
+    font-size:0.3rem;
+    border-radius:0.08rem;
+}

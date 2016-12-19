@@ -1,0 +1,195 @@
+body{
+    background:#F4F4F4;
+}
+.message{
+    width:100%;
+    height:4.9rem;
+    background:url("../img/bg.jpg")no-repeat;
+}
+.message nav{
+    width:100%;
+    height:0.8rem;
+}
+.message nav a{
+    display:block;
+    width:0.8rem;
+    height:0.8rem;
+}
+.message nav a i{
+    margin-left:0.36rem;
+    font-size:0.38rem;
+    color:#ffffff;
+}
+.message_tishi{
+    color:#fff;
+    font-size:0.26rem;
+    text-align: center;
+}
+.message_btn{
+    width:3.1rem;
+    height:0.7rem;
+    border-radius:0.08rem;
+    font-size:0.28rem;
+    text-align: center;
+    line-height:0.7rem;
+    border:1px solid #fff;
+    margin:0 auto;
+    color:#fff;
+}
+.message_yue{
+    width:100%;
+    height:1.04rem;
+    line-height:1.04rem;
+    display: flex;
+    justify-content: space-around;
+    background:#E4CDD3;
+    margin-top:0.35rem;
+}
+.message_yue li{
+    width:49.5%;
+    height:100%;
+    padding:0 0.36rem;
+    float:left;
+    line-height:1.04rem;
+}
+.message_yue li:nth-child(2){
+    width:0.01rem;
+    height:0.56rem;
+    background:#fff;
+    padding:0;
+    margin-top:0.25rem;
+}
+.message_yue li a{
+    display:block;
+    width:100%;
+    height:100%;
+    display: flex;
+}
+.message_yue li a i{
+    margin-left:0.2rem;
+    font-size:0.35rem;
+    color:#fff;
+}
+.message_yue li a span{
+    font-size:0.26rem;
+    flex-direction: column;
+    margin-left:0.2rem;
+    color:#fff;
+}
+.message_xyue{
+    width:100%;
+    height:1.3rem;
+    line-height:1.04rem;
+    background:#fff;
+}
+.message_xyue li{
+    width:49.5%;
+    height:100%;
+    float:left;
+    display:flex;
+}
+.message_xyue li:nth-child(2){
+    width:0.01rem;
+    height:0.56rem;
+    background:#80302E;
+    padding:0;
+    margin-top:0.25rem;
+}
+.message_xyue li a{
+    display:block;
+    width:100%;
+    height:100%;
+}
+.message_xyue li a p{
+    text-align:center;
+    line-height:0.7rem;
+    height:49.5%;
+    width:100%;
+    font-size:0.26rem;
+    color:#80302E;
+    flex-direction: column;
+}
+/*订单信息*/
+.message_order{
+    width:100%;
+    height:2.3rem;
+    background:#fff;
+    margin-top:1rem;
+}
+.my_order{
+    width:100%;
+    height:0.99rem;
+    border-bottom:1px solid #F4F4F4;
+}
+.message_other{
+    height:100%;
+    height:0.5rem;
+    margin-top:0.24rem;
+    background:#fff;
+}
+.my_order a{
+    width:100%;
+    height:100%;
+    display:block;
+    padding:0 0.36rem;
+    font-size:0.22rem;
+    display:flex;
+    align-items:center;
+}
+.my_order a span{
+    margin-left:0.18rem;
+}
+.my_order a i:last-child{
+    margin-left:5rem;
+}
+.order_list{
+    width:100%;
+    height:1.3rem;
+    display:flex;
+    justify-content: space-between;
+}
+.order_list a{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.order_list i{
+    font-size: 0.5rem;
+    align-self: center;
+}
+.order_list span{
+    font-size:0.22rem;
+    align-self: center;
+}
+.message_other_list{
+    margin-top:0.25rem;
+    width:100%;
+}
+.message_other_list li{
+    width:100%;
+    height:1rem;
+    margin-bottom:0.01rem;
+    background:#fff;
+    border-bottom:0.01rem solid #F4F4F4;
+
+}
+.message_other_list a{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: space-between;
+    padding:0 0.36rem;
+    line-height: 1rem;
+}
+
+.message_other_list span{
+    height:100%;
+    font-size:0.26rem;
+}
+.message_order_list ul li a i:nth-of-type(2){
+    display: inline-block;
+    /*float:right;*/
+}
+
+

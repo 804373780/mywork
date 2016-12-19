@@ -1,0 +1,101 @@
+.swiper-slide a{
+    width:100%;
+    height:100%;
+}
+.swiper-slide img{
+    width:100%;
+    height:100%;
+}
+.swiper-pagination{
+    z-index: 10;
+}
+/*菜单栏*/
+.nav_box{
+    width:100%;
+    height:1.2rem;
+    display:flex;
+    justify-content:space-between;
+}
+.nav_box a{
+    height:100%;
+    width:20%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav_box a span{
+    align-self:center;
+    font-size:0.2rem;
+}
+.nav_box a i{
+    align-self:center;
+    font-size:0.45rem;
+}
+.tuijian_banner{
+    wdidth:100%;
+    height:1.4rem;
+    background:green;
+}
+.tuijian_banner img{
+    width:100%;
+    height:100%;
+}
+/*推荐位*/
+.tuijian_box{
+    width:100%;
+    height:3.8rem;
+    padding:0.4rem 0.2rem;
+    display:flex;
+    justify-content:space-between;
+}
+.tuijian_box a{
+    display:block;
+    width:3.44rem;
+    height:3rem;
+    float:left;
+}
+.tuijian_box a img{
+    width:100%;
+    height:100%;
+}
+/*秒杀*/
+.seckill{
+    width:100%;
+    height:6.6rem;
+}
+.seckill a{
+    display:block;
+}
+.sec_1{
+    width:100%;
+    height:1.8rem;
+}
+.sec_2{
+    width:2.7rem;
+    height:4.8rem;
+    float:left;
+}
+.sec_3{
+    width:4.8rem;
+    height:4.8rem;
+    float:left;
+}
+.sec_3_1{
+    width:100%;
+    height:2.35rem;
+    background:#E8E8E9;
+    margin-bottom:0.08rem;
+}
+.sec_3_2,.sec_3_3{
+    height:2.37rem;
+    width:49%;
+    float:left;
+}
+.sec_3_2{
+    margin-right:0.08rem;
+}
+.seckill img{
+    wdith:100%;
+    height:100%;
+}
+
